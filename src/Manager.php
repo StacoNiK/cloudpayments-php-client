@@ -46,7 +46,7 @@ class Manager
      * @param array $params
      * @return array
      */
-    protected function sendRequest($endpoint, array $params = [])
+    public function sendRequest($endpoint, array $params = [])
     {
         $params['CultureName'] = $this->locale;
 
